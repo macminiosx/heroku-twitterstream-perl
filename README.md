@@ -30,7 +30,7 @@ Example usage:
     $ cate Procfile
     bot: perl -Mlib=/app/local/lib/perl5 /app/stream.pl
     
-    $ heroku create --stack cedar --buildpack https://github.com/macminiosx/her
+    $ heroku create --stack cedar --buildpack https://github.com/macminiosx/heroku-twitterstream-perl.git
 
     $ git push heroku master
     ...
