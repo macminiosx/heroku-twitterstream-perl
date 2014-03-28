@@ -27,7 +27,7 @@ Example usage:
     requires 'Params::Validate','0';
     requires 'AnyEvent::Twitter::Stream','0';
     
-    $ cate Procfile
+    $ cat Procfile
     bot: perl -Mlib=/app/local/lib/perl5 /app/stream.pl
     
     $ heroku create --stack cedar --buildpack https://github.com/macminiosx/heroku-twitterstream-perl.git
