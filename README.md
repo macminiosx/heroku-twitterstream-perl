@@ -38,6 +38,12 @@ Example usage:
     -----> Fetching custom buildpack
     -----> Twitter/Stream app detected
     -----> Installing dependencies
+    
+    $ heroku config:add MY_CONSUMER_KEY=... MY_CONSUMER_SECRET=... MY_OAUTH_TOKEN=... MY_OAUTH_TOKEN_SECRET=...
+
+    $ heroku scale bot=1
+
+    $ heroku ps
 
 The buildpack will detect that your app has an `stream.pl` in the root.
 
